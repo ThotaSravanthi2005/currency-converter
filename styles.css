@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.converter {
+    background: rgb(165, 222, 239);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 450px;
+    height: 500px;
+}
+
+input, select, button {
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    font-size: 25px;
+}
+
+button {
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+/* Update the result display style */
+.result-display {
+    font-size: 25px; /* Set font size to 25px */
+    margin-top: 20px;
+    color: #333;
+  }
